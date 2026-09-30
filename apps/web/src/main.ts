@@ -3,7 +3,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 maplibregl.setWorkerUrl(workerUrl);
 import './style.css';
-import { courses, themes, type Theme } from '../../mobile/src/courseCatalog';
+import { courses, themes, type Theme } from '../../../shared/courseCatalog';
 import preview from './preview.json';
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
