@@ -1,0 +1,13 @@
+{
+  "id": "seoul-forest-v1",
+  "name": "서울숲 주변",
+  "bounds": [
+    127.03,
+    37.538,
+    127.049,
+    37.551
+  ],
+  "filename": "seoul-forest-v1.json",
+  "sha256": "dfb1e0a3c08b9a807992401b90b5176162b7025bf56ad57e61f52bcbd08c138b",
+  "bytes": 595187
+}

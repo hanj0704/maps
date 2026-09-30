@@ -1,0 +1,1 @@
+{"name":"gilmap-web","private":true,"version":"0.1.0","type":"module","scripts":{"dev":"vite --host 127.0.0.1","build":"tsc --noEmit && vite build","preview":"vite preview --host 127.0.0.1"},"dependencies":{"maplibre-gl":"^6.11.2"},"devDependencies":{"typescript":"~6.0.3","vite":"^8.0.0"}}

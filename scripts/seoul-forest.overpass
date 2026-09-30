@@ -1,0 +1,16 @@
+[out:json][timeout:60][bbox:37.538,127.030,37.551,127.049];
+(
+  way[highway];
+  way[building];
+  way[landuse];
+  way[leisure];
+  way[natural];
+  way[waterway];
+  relation[type=multipolygon][natural];
+  relation[type=multipolygon][leisure];
+  node[name][amenity];
+  node[name][tourism];
+);
+out body;
+>;
+out skel qt;

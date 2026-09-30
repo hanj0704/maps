@@ -1,0 +1,38 @@
+{
+  "name": "gilmap-mobile",
+  "description": "Korea offline course map prototype",
+  "license": "0BSD",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@maplibre/maplibre-react-native": "^11.4.0",
+    "expo": "~57.0.25",
+    "expo-crypto": "~57.0.3",
+    "expo-file-system": "~57.0.7",
+    "expo-location": "~57.0.20",
+    "expo-status-bar": "~57.0.1",
+    "fast-xml-parser": "^5.11.1",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-safe-area-context": "~5.7.0"
+  },
+  "devDependencies": {
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^26.6.3",
+    "@types/react": "~19.2.2",
+    "osmtogeojson": "3.0.0-beta.5",
+    "tsx": "^4.23.15",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "ios": "expo run:ios",
+    "android": "expo run:android",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "data:prepare": "node scripts/prepare-data.cjs",
+    "export:check": "expo export --platform ios --platform android",
+    "prebuild": "expo prebuild --no-install"
+  },
+  "private": true
+}
