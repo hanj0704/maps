@@ -72,3 +72,9 @@ iPhone: Apple 계정으로 Xcode Signing Team을 선택하고 아이폰의 신�
 로컬 주소: http://127.0.0.1:4173/ (개발 모드는 `./scripts/web.sh dev`). 새 환경은 `cd apps/web && pnpm install --frozen-lockfile` 후 실행합니다. 배포 산출물은 `apps/web/dist`이며 아직 공개 호스팅하지 않았습니다.
 
 웹의 `gilmap://course/seoul-forest-v1` 링크는 설치된 테스트 앱의 서울숲 화면을 엽니다. 미설치 시 안내를 제공하며, 스토어 출시 링크/Universal Links는 도메인과 배포 계정 확정 후 추가합니다. 원본 GPX와 오프라인 지도 패키지는 웹 배포 폴더에 복사하지 않습니다.
+
+## 공개 웹 배포
+
+공개 주소: https://hanj0704.github.io/maps/
+
+`main`의 웹 소스/공통 코스 목록 변경 시 `.github/workflows/web-pages.yml`이 웹을 빌드해 GitHub Pages에 배포합니다. Pages에는 `apps/web/dist`만 올라갑니다. 로컬 실행은 루트 경로, Pages 빌드는 `/maps/` 경로를 사용합니다.

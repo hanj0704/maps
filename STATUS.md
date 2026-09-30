@@ -117,3 +117,10 @@
 - Git 작성자 설정이 없어 저장소 로컬에 GitHub 계정 hanj0704와 GitHub noreply 주소 사용. 전역 Git 설정은 변경하지 않는다.
 - 웹 공개 호스팅은 아직 연결하지 않음. GitHub 소스 업로드와 웹 배포는 별개다.
 - 첫 커밋 생성 완료. `GIT_TERMINAL_PROMPT=0 git push -u origin main`은 GitHub 인증정보 부재(`could not read Username`)로 실패. 원격 업로드 미완료; 로컬 HTTPS Git 인증 또는 GitHub Desktop 로그인 후 재시도 필요. 토큰을 채팅으로 요청하지 않는다.
+
+## GitHub 인증·배포 연결
+
+- 브라우저 인증 후 hanj0704 계정 확인. `git push -u origin main` 성공.
+- GitHub Pages workflow 배포 활성화. 웹 빌드만 업로드하며 원본 GPX/지도 패키지는 Pages 산출물에서 제외.
+- `/maps/` 기준 경로와 홈 링크 수정, TypeScript 및 Pages 경로 빌드 통과. 최초 로컬 빌드 명령의 작업 경로 오류 수정 후 재실행.
+- 공개 주소: https://hanj0704.github.io/maps/ (배포 결과 확인은 후속 기록).
