@@ -125,3 +125,4 @@
 - `/maps/` 기준 경로와 홈 링크 수정, TypeScript 및 Pages 경로 빌드 통과. 최초 로컬 빌드 명령의 작업 경로 오류 수정 후 재실행.
 - 공개 주소: https://hanj0704.github.io/maps/ (배포 결과 확인은 후속 기록).
 - 첫 Actions 빌드는 Expo tsconfig 의존성으로 실패. 모바일 폴더에서 가져오던 코스 목록을 `shared/courseCatalog.ts`로 분리하여 웹 독립 빌드로 수정. 로컬 웹 빌드·모바일 타입 검사 통과.
+- 재배포 Actions 실행 36732555518 성공(build 18s / deploy 35s). 공개 URL HTTP 정상 응답, `/maps/assets/` 경로 및 브라우저의 지도·경로 렌더링 확인.
